@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Settings - Lifestyle Store</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/settings.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top col-sm-12">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a href="../index.html" class="navbar-brand">Lifestyle Store</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Settings</a></li>
+                <li><a href="logout.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-sm-4 col-sm-offset-4">
+            <div id="password-change">
+                <h3>Change Password</h3>
+                <form class="form">
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="oldpass" placeholder="Old Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="newpass" placeholder="New Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="newpass2" placeholder="Re-type New Password">
+                    </div>
+                    <input type="submit" value="Change" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+        </div>
+    </footer>
+</body>
+
+</html>
