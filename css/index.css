@@ -10,7 +10,6 @@ body {
 }
 
 #banner-image {
-    min-height: 100vh;
     padding-top: 75px;
     padding-bottom: 50px;
     text-align: center;
@@ -20,6 +19,7 @@ body {
 }
 
 #banner-content {
+    font-weight: bold;
     position: relative;
     padding-top: 6%;
     padding-bottom: 6%;
@@ -27,6 +27,15 @@ body {
     margin-bottom: 12%;
     background-color: rgba(0, 0, 0, 0.7);
     max-width: 660px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#prod {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 footer {
